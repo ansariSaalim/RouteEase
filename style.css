@@ -158,4 +158,88 @@ html, body{
         height: 55%;
     }
 }
+  /*  category*/
+  .category{
+    margin-top: 10rem;
+    /* padding: 5rem; */
+    height: 80vh;
+    width: auto;
+  }
   
+  .category h5,.category h1{
+    text-align: center;
+}
+.category h5{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #555555;
+}
+.category h1{
+    font-size: 3rem;
+      margin-bottom: 4rem
+
+  }
+  .card-container{
+      height: 16.5rem;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .card{
+    height: 100%;
+    width: 18%;
+    /* background-color: #ffffff; */
+    position: relative;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px #555555;
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+  .card img{
+    position: absolute;
+    height: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 1rem; */
+    width: auto;
+  }
+  .card .text-content{
+    position: absolute;
+    bottom:  5%;
+    padding: 0 10px;
+  }
+  /* Category end*/
+  /* Guidence */
+  .guidence{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .steps-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .steps{
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+  }
+  .steps img{
+    margin-right: 20px;
+  }
+  .steps p{
+    width: 60%;
+  }
+  .steps p{
+    color: #706f6f;
+  }
+  .steps h3{
+    color: #555555;
+  }
